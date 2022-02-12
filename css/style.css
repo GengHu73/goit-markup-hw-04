@@ -16,8 +16,27 @@
   --accent-color: #188ce8;
 }
 body {
-  margin: 0 auto;
+  margin: auto;
   font-family: var(--primary-font);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 ul {
   list-style: none;
@@ -25,20 +44,45 @@ ul {
 a {
   text-decoration: none;
 }
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  padding: 94px 15px;
+  /* padding-right: 15px; */
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ============= HEADER =============== */
 
+.navigation {
+  display: flex;
+}
+.container-top-line {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .logo-home {
   font-family: var(--logo-font);
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 .logo-web {
   color: var(--web-logo-color);
 }
 .logo-studio {
   color: var(--secondary-logo-color);
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 .nav-link {
   font-weight: 500;
@@ -53,6 +97,13 @@ a {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
+}
+.top-line-contacts-list {
+  display: flex;
+  margin-left: auto;
+}
+.contact-item:not(:last-child) {
+  margin-right: 50px;
 }
 .contaсt-link {
   font-weight: 500;
@@ -69,6 +120,12 @@ a {
 .hero {
   background-color: var(--background-hero);
 }
+.container-hero {
+  box-sizing: border-box;
+  max-width: 670px;
+  padding: 200px 15px 200px 15px;
+  margin: auto;
+}
 .hero-slogan {
   font-weight: 900;
   font-size: 44px;
@@ -77,6 +134,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-text-color);
+  margin-bottom: 30px;
 }
 .modal-btn {
   border: none;
@@ -84,12 +142,15 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--hero-text-color);
   cursor: pointer;
   background-color: var(--background-btn);
+  padding: 10px 32px;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -101,7 +162,6 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--titl-text-color);
@@ -114,6 +174,15 @@ a {
   color: var(--hero-text-color);
 }
 /* ======================FEATURE======================== */
+.features-list {
+  display: flex;
+}
+.features-item {
+  width: 270px;
+}
+.features-item:not(:last-child) {
+  margin-right: 30px;
+}
 .title-feature {
   font-weight: 700;
   font-size: 14px;
