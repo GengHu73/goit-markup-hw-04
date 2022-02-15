@@ -61,16 +61,17 @@ a {
   padding-bottom: 94px;
 }
 /* ============= HEADER =============== */
-
+.top-line {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
 .navigation {
   display: flex;
 }
 .container-top-line {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #ececec;
 }
 .logo-home {
   font-family: var(--logo-font);
@@ -128,11 +129,14 @@ a {
 /* ============HERO/FILTERS============= */
 .hero {
   background-color: var(--background-hero);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .container-hero {
   box-sizing: border-box;
   max-width: 670px;
-  padding: 200px 15px 200px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: auto;
 }
 .hero-slogan {
@@ -165,29 +169,28 @@ a {
 .modal-btn:focus {
   background-color: var(--accent-color);
 }
-.filter-buttons {
-  margin-bottom: 50px;
-}
+
 .filter-buttons-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .filter-btn {
   border: none;
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   color: var(--titl-text-color);
   cursor: pointer;
   background-color: var(--background-team);
-  padding: 10px 32px;
+  padding: 6px 22px;
   border-radius: 4px;
   display: block;
 }
-.filter-btn:last-child {
+.filter-item:not(:last-child) {
   margin-right: 8px;
 }
 .filter-btn:hover,
@@ -231,7 +234,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--titl-text-color);
-  margin-bottom: -42px;
+  margin-bottom: 50px;
 }
 .preview-list {
   display: flex;
@@ -256,6 +259,9 @@ a {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+}
+.projects-title {
+  visibility: hidden;
 }
 .projects-list {
   display: flex;
@@ -323,8 +329,6 @@ a {
 /* =======================FUTER=========================== */
 .footer {
   background-color: var(--background-footer);
-}
-.container-footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -343,12 +347,12 @@ a {
 .footer-logo-studio {
   color: var(--secondary-logo-footer-color);
 }
-.contact-item {
+.footer-contact-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.contact-link,
+.footer-contact-link,
 .map {
-  font-style: normal;
+  font-style: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
