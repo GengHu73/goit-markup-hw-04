@@ -41,6 +41,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 ul {
   list-style: none;
@@ -227,6 +229,9 @@ a {
   color: var(--text-color);
 }
 /* ========================PREVIEWS===================== */
+.gallery-previews {
+  padding-top: 0;
+}
 .preview-title {
   font-weight: 700;
   font-size: 36px;
@@ -261,7 +266,16 @@ a {
   margin-top: -30px;
 }
 .projects-title {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .projects-list {
   display: flex;
@@ -350,9 +364,8 @@ a {
 .footer-contact-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-contact-link,
-.map {
-  font-style: 400;
+.footer-contact-link {
+  font-style: initial;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
