@@ -46,6 +46,7 @@ img {
 }
 ul {
   list-style: none;
+  font-style: normal;
 }
 a {
   text-decoration: none;
@@ -77,8 +78,8 @@ a {
 }
 .logo-home {
   font-family: var(--logo-font);
-  font-size: 26px;
   font-weight: 700;
+  font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   margin-right: 93px;
@@ -365,7 +366,6 @@ a {
   margin-bottom: 9px;
 }
 .footer-contact-link {
-  font-style: initial;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
