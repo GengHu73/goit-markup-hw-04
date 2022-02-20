@@ -63,7 +63,7 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* ============= HEADER =============== */
+/* ================= HEADER ==================== */
 .top-line {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -136,7 +136,7 @@ a {
 .contaсt-link:focus {
   color: var(--accent-color);
 }
-/* ============HERO/FILTERS============= */
+/* ===================HERO=================== */
 .hero {
   background-image: linear-gradient(
       var(--background-hero),
@@ -185,7 +185,7 @@ a {
 .modal-btn:focus {
   background-color: var(--accent-color);
 }
-
+/* =================FILTERS=================== */
 .filter-buttons-list {
   display: flex;
   justify-content: center;
@@ -215,7 +215,7 @@ a {
   color: var(--hero-text-color);
 }
 
-/* ======================FEATURE======================== */
+/* =====================FEATURE==================== */
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -248,7 +248,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-/* ========================PREVIEWS===================== */
+/* ====================PREVIEWS===================== */
 .gallery-previews {
   padding-top: 0;
 }
@@ -266,7 +266,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* ======================TEAM=========================== */
+/* ======================TEAM====================== */
 .team {
   background-color: var(--background-team);
 }
@@ -338,7 +338,7 @@ a {
 .social-icon {
   fill: currentColor;
 }
-/* ========================PROJECTS========================= */
+/* ====================PROJECTS==================== */
 .projects-title {
   position: absolute;
   width: 1px;
@@ -388,7 +388,7 @@ a {
   color: var(--text-color);
 }
 
-/* ======================clients======================== */
+/* ======================clients===================== */
 .clients_title {
   font-weight: 700;
   font-size: 36px;
@@ -402,7 +402,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 16px 32px; */
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
@@ -430,7 +429,7 @@ a {
   fill: currentColor;
 }
 
-/* =======================FUTER=========================== */
+/* =======================FUTER====================== */
 .footer {
   background-color: var(--background-footer);
   padding-top: 60px;
@@ -470,7 +469,7 @@ a {
   margin-right: 70px;
 }
 .footer-social-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
