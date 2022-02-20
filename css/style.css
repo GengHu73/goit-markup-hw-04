@@ -142,7 +142,7 @@ a {
       var(--background-hero),
       var(--background-hero)
     ),
-    url(./images/hiro-img.jpg);
+    url(/images/hiro-img.jpg);
   background-size: cover;
   background-color: #c4c4c4;
   padding-top: 200px;
