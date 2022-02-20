@@ -109,7 +109,7 @@ a {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--accent-color);
+  color: var(--web-logo-color);
 }
 .top-line-contacts-list {
   display: flex;
@@ -134,7 +134,7 @@ a {
 }
 .contaсt-link:hover,
 .contaсt-link:focus {
-  color: var(--accent-color);
+  color: var(--web-logo-color);
 }
 /* ===================HERO=================== */
 .hero {
@@ -142,7 +142,7 @@ a {
       var(--background-hero),
       var(--background-hero)
     ),
-    url(/images/hiro-img.jpg);
+    url(./images/hiro-img.jpg);
   background-size: cover;
   background-color: #c4c4c4;
   padding-top: 200px;
@@ -211,7 +211,7 @@ a {
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  background-color: var(--accent-color);
+  background-color: var(--web-logo-color);
   color: var(--hero-text-color);
 }
 
@@ -329,7 +329,7 @@ a {
 }
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--accent-color);
+  background-color: var(--web-logo-color);
   color: var(--card-title-color);
 }
 .social-link:not(:last-child) {
@@ -411,8 +411,8 @@ a {
 }
 .client-ikon:hover,
 .client-ikon:focus {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
+  border-color: var(--web-logo-color);
+  color: var(--web-logo-color);
 }
 .clients-list {
   display: flex;
