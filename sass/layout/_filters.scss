@@ -1,0 +1,29 @@
+.filter-buttons-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter-btn {
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--titl-text-color);
+  cursor: pointer;
+  background-color: var(--background-team);
+  padding: 6px 22px;
+  border-radius: 4px;
+  display: block;
+}
+.filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--web-logo-color);
+  color: var(--hero-text-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,29 @@
+.logo-home {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+.logo-web {
+  color: var(--web-logo-color);
+}
+.logo-studio {
+  color: var(--secondary-logo-color);
+}
+.footer-logo {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 20px;
+}
+.footer-logo-web {
+  color: var(--web-logo-color);
+}
+.footer-logo-studio {
+  color: var(--secondary-logo-footer-color);
+}
