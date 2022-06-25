@@ -13,13 +13,11 @@
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }
-.project-link:hover {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.project-link:hover .tooltip {
-  transform: translatey(-100%);
-}
+
 .project-container {
   position: relative;
   overflow: hidden;
@@ -38,7 +36,10 @@
   color: #ffffff;
   background: rgba(33, 150, 243, 0.9);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: transform 250ms;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .project-link:hover & {
+    transform: translatey(-100%);
+  }
 }
 .card-project {
   padding: 20px 24px;

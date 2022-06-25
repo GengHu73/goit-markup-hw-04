@@ -1,9 +1,6 @@
 .logo-home {
   font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  @include font(700, 26px, 1.19, 0.03);
   margin-right: 93px;
 }
 .logo-web {
@@ -14,11 +11,8 @@
 }
 .footer-logo {
   font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  display: block;
+  @include font(700, 26px, 1.19, 0.03);
+  display: flex;
   margin-bottom: 20px;
 }
 .footer-logo-web {
@@ -26,4 +20,5 @@
 }
 .footer-logo-studio {
   color: var(--secondary-logo-footer-color);
+  display: inline-block;
 }

@@ -17,13 +17,14 @@
   padding: 6px 22px;
   border-radius: 4px;
   display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--web-logo-color);
+    color: var(--hero-text-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
-}
-.filter-btn:hover,
-.filter-btn:focus {
-  background-color: var(--web-logo-color);
-  color: var(--hero-text-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
