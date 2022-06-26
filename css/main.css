@@ -286,7 +286,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-.logo-home {
+.logo-header {
   margin-right: 93px;
 }
 
@@ -294,16 +294,16 @@ a {
   color: var(--web-logo-color);
 }
 
-.logo-home_white {
+.logo-header_white {
   color: var(--secondary-logo-color);
 }
 
-.footer-logo {
+.logo-footer {
   display: flex;
   margin-bottom: 20px;
 }
 
-.footer-logo-studio {
+.logo-footer_black {
   color: var(--secondary-logo-footer-color);
   display: inline-block;
 }
