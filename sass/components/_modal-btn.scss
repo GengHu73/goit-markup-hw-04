@@ -1,7 +1,7 @@
 .modal-btn {
   border: none;
   font-family: inherit;
-  @include font(700, 16px, 1.87, 0.06);
+  @include font(700, 16px, 1.87, 0.06em);
   text-align: center;
   color: var(--hero-text-color);
   cursor: pointer;

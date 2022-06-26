@@ -42,7 +42,7 @@
   fill: var(--background-btn);
 }
 .invitation {
-  @include font(700, 20px, 1.91, 0.03);
+  @include font(700, 20px, 1.91, 0.03em);
   text-align: center;
   color: #212121;
 }

@@ -1,5 +1,5 @@
 .hero-slogan {
-  @include font(900, 44px, 1.36, 0.06);
+  @include font(900, 44px, 1.36, 0.06em);
   text-align: center;
   text-transform: uppercase;
   color: var(--hero-text-color);

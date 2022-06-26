@@ -29,7 +29,7 @@
   padding-top: 12px;
 }
 .footer-social-title {
-  @include font(700, 14px, 1.14, 0.03);
+  @include font(700, 14px, 1.14, 0.03em);
   text-transform: uppercase;
   color: var(--footer-text-color);
   margin-bottom: 20px;

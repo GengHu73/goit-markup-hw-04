@@ -2,11 +2,8 @@
   background-color: var(--background-team);
 }
 .team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(700, 36px, 1.17, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--titl-text-color);
   margin-bottom: 50px;
 }
@@ -17,11 +14,8 @@
   margin-top: -30px;
 }
 .member-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
+  @include font(500, 16px, 1.18, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--titl-text-color);
   margin-bottom: 10px;
 }
